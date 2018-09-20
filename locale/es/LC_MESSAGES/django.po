@@ -1,0 +1,320 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-12 11:43-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: accounts/models.py:9
+msgid "Country name"
+msgstr ""
+
+#: accounts/models.py:10
+msgid "Code"
+msgstr ""
+
+#: accounts/models.py:24
+msgid "City name"
+msgstr ""
+
+#: accounts/models.py:52
+msgid "Men"
+msgstr ""
+
+#: accounts/models.py:53
+msgid "Woman"
+msgstr ""
+
+#: accounts/models.py:54
+msgid "Other"
+msgstr ""
+
+#: accounts/models.py:58
+msgid "Recovery"
+msgstr ""
+
+#: accounts/models.py:59
+msgid "image"
+msgstr ""
+
+#: accounts/models.py:60
+msgid "Direction"
+msgstr ""
+
+#: accounts/models.py:61
+msgid "Age"
+msgstr ""
+
+#: accounts/models.py:62
+msgid "Type_sex"
+msgstr ""
+
+#: accounts/services.py:35
+msgid "The username cannot be empty"
+msgstr "El nombre de usuario no puede estar vacío"
+
+#: accounts/services.py:38
+msgid "The password cannot be empty"
+msgstr "La contraseña no puede estar vacía"
+
+#: accounts/services.py:45 accounts/services.py:51
+msgid "The username or password is incorrect"
+msgstr "El nombre de usuario o la contraseña son incorrectos"
+
+#: accounts/services.py:48
+msgid "Account inactive, or your account is blocked"
+msgstr "Cuenta inactiva o bloqueada"
+
+#: accounts/services.py:60
+msgid "A Valid and Active User must be provided"
+msgstr "Se debe proporcionar un usuario activo y válido"
+
+#: accounts/validations.py:50
+msgid "Please enter a valid email address"
+msgstr "Por favor escriba una dirección de correo válida"
+
+#: accounts/validations.py:52 accounts/validations.py:54
+msgid "Invalid email"
+msgstr "Correo invalido "
+
+#: accounts/validations.py:64
+msgid "The date you entered is not valid"
+msgstr "La fecha que ingresaste no es valida"
+
+#: accounts/validations.py:68
+msgid "to register you must be 18 years old"
+msgstr "Para registrarte debes ser mayor a 18 años"
+
+#: accounts/views.py:53
+msgid "You have disconnected from the system"
+msgstr "Te has desconectado del sistema"
+
+#: accounts/views.py:67
+msgid "The creation of your account has been successfully completed"
+msgstr "La creacion de tu cuenta se ha realizado correctamente"
+
+msgid "empty values not allowed"
+msgstr "valores vacíos no permitidos"
+
+msgid "min length is 3"
+msgstr "La longitud mínima es 3"
+
+msgid "min length is 1"
+msgstr "La longitud mínima es 1"
+
+msgid "min length is 6"
+msgstr "La longitud mínima es 6"
+
+msgid "max length is 12"
+msgstr "La longitud maxima es 12"
+
+msgid "max length is 20"
+msgstr "La longitud maxima es 20"
+
+msgid "max length is 30"
+msgstr "La longitud maxima es 30"
+
+msgid "max length is 255"
+msgstr "La longitud maxima es 255"
+
+msgid "must be of string type"
+msgstr "debe ser de tipo cadena"
+
+msgid "unallowed value"
+msgstr "valor no permitido "
+
+msgid "must be of integer type"
+msgstr "debe ser de tipo entero"
+
+msgid "must be of date type"
+msgstr "debe ser del tipo de fecha"
+
+msgid "Username exists, please enter another username"
+msgstr "Nombre de usuario existe, por favor ingrese otro nombre de usuario"
+
+msgid "The code has been sent successfully"
+msgstr "El código ha sido enviado con éxito"
+
+msgid "Server problems could not make the request"
+msgstr "Los problemas del servidor no pudieron hacer la solicitud"
+
+msgid "The password has been successfully changed"
+msgstr "La contraseña ha sido cambiada con éxito"
+
+msgid "You have successfully added a group to admin server"
+msgstr "Ha agregado correctamente un grupo al servidor de administración"
+
+msgid "Your group information has been successfully edited"
+msgstr "La información de su grupo ha sido editada con éxito"
+
+msgid "Group has been successfully deleted"
+msgstr "El grupo ha sido eliminado con éxito"
+
+msgid "You have add new permission to selected group"
+msgstr "Has agregado un nuevo permiso al grupo seleccionado"
+
+msgid "You have delete permission to selected group"
+msgstr "Tienes permiso de eliminación para el grupo seleccionado"
+
+msgid "Permission have successfully added"
+msgstr "El permiso se ha agregado correctamente"
+
+msgid "Permission has been successfully edited"
+msgstr "El permiso ha sido editado con éxito"
+
+msgid "Permission has been successfully deleted"
+msgstr "El permiso ha sido eliminado con éxito"
+
+msgid "You have add the user to group "
+msgstr "Usted ha agregado el usuario al grupo "
+
+msgid "You have remove the user the group "
+msgstr "Has eliminado al usuario del grupo"
+
+msgid "You have added permission to the user"
+msgstr "Has agregado el permiso al usuario"
+
+msgid "You have remove the user the permission"
+msgstr "Has eliminado el permiso del usuario"
+
+msgid "User can't be None"
+msgstr "El usuario no puede ser ninguno"
+
+msgid "Inactive user"
+msgstr "Usuario inactivo"
+
+msgid "A 'user' named argument must be provided"
+msgstr "Se debe proporcionar un argumento con nombre de 'usuario'"
+
+msgid "User is not Admin"
+msgstr "El usuario no es administrador"
+
+msgid "Invalid reCAPTCHA. Please try again."
+msgstr "ReCAPTCHA inválido. Inténtalo de nuevo."
+
+msgid "The access_token field can not be empty"
+msgstr "El campo access_token no puede estar vacío"
+
+msgid "The access token does not belong to that user"
+msgstr "El token de acceso no pertenece a ese usuario"
+
+msgid "An error occurred while saving the user"
+msgstr "Se produjo un error al guardar el usuario"
+
+msgid "Mail exists, please enter another email"
+msgstr "El correo existe, ingrese otro correo electrónico"
+
+msgid "The email field can not be empty"
+msgstr "El campo de correo electrónico no puede estar vacío"
+
+msgid "The email is not registered in the system"
+msgstr "El correo electrónico no está registrado en el sistema"
+
+msgid "The phone number cannot be empty"
+msgstr "El número de teléfono no puede estar vacío"
+
+msgid "Username does not exist"
+msgstr "el usuario no existe"
+
+msgid "Phone number incorrect"
+msgstr "Número de teléfono incorrecto"
+
+msgid "The code cannot be empty"
+msgstr "El código no puede estar vacío"
+
+msgid "Code you sent does not match the one registered in your account"
+msgstr "El código que ha enviado no coincide con el registrado en su cuenta"
+
+msgid "Group name cannot be empty"
+msgstr "El nombre del grupo no puede estar vacío"
+
+msgid "Group name exists try by another name"
+msgstr "El nombre del grupo existe prueba con otro nombre"
+
+msgid "Permission does not exist"
+msgstr "El permiso no existe"
+
+msgid "Permission has already been added to this group"
+msgstr "El permiso ya ha sido agregado a este grupo"
+
+msgid "Group don`t have any permission to delete"
+msgstr "Grupo no tiene ningún permiso para eliminar"
+
+msgid "The permission to delete does not exist inside the group"
+msgstr "El permiso para eliminar no existe dentro del grupo"
+
+msgid "Permission name cannot be empty"
+msgstr "El nombre del permiso no puede estar vacío"
+
+msgid "Code name cannot be empty"
+msgstr "El nombre del código no puede estar vacío"
+
+msgid "Code name must contain underscore"
+msgstr "El nombre del código debe contener guion bajo"
+
+msgid "Code name must not contain a underscore when starting and ending"
+msgstr "El nombre del código no debe contener un guión bajo al iniciar y finalizar"
+
+msgid "Permission name or code name exists try by another name"
+msgstr "El nombre del permiso o nombre del código existe prueba con otro nombre"
+
+msgid "Group id cannot be empty"
+msgstr "La identificación del grupo no puede estar vacía"
+
+msgid "User id or group is not a number"
+msgstr "ID de usuario o grupo no es un número"
+
+msgid "Group you search does not exist"
+msgstr "El grupo que buscas no existe"
+
+msgid "User you search does not exist"
+msgstr "El usuario que buscas no existe"
+
+msgid "This user already has this group added"
+msgstr "Este usuario ya tiene este grupo agregado"
+
+msgid "This user does not have any group to deleted"
+msgstr "Este usuario no tiene ningún grupo para eliminar"
+
+msgid "This group has been removed for this user or has never been added"
+msgstr "Este grupo se eliminó para este usuario o nunca se agregó"
+
+msgid "Permission id cannot be empty"
+msgstr "El ID de permiso no puede estar vacío"
+
+msgid "User id or permission is not a number"
+msgstr "ID de usuario o permiso no es un número"
+
+msgid "Permission you search does not exist"
+msgstr "El permiso que buscas no existe"
+
+msgid "This user already has this permission added"
+msgstr "Este usuario ya tiene este permiso agregado"
+
+msgid "This user does not have any permission to deleted"
+msgstr "Este usuario no tiene ningún permiso para eliminar"
+
+msgid "This permission has been removed for this user or has never been added"
+msgstr "Este permiso se ha eliminado para este usuario o nunca se ha agregado"
+
+
+#: app/settings.py:136
+msgid "English"
+msgstr ""
+
+#: app/settings.py:137
+msgid "Spanish"
+msgstr ""
